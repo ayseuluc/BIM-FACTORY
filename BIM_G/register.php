@@ -5,7 +5,7 @@
 
   session_start(); // start a new session or continues the previous
 
-  if( isset($_SESSION['users'])!="" ){
+  if( isset($_SESSION['admin'])!="" ){
     header("Location: home.php"); // redirects to home.php
   }
 
@@ -83,7 +83,7 @@
 
     // if there's no error, continue to signup
     if( !$error ) {
-        $query = "INSERT INTO admin (userName, userEmail, userPass,admin) VALUES ('$name', '$email', '$password',1)";
+        $query = "INSERT INTO admin (userName, userEmail, userPass,users) VALUES ('$name', '$email', '$password',1)";
         $res = mysqli_query($conn, $query);
 
       if ($res) {
@@ -93,7 +93,6 @@
         unset($email);
         unset($pass);
         } else {
-          echo $name . " " . $email . " " . $pass;
           $errTyp = "danger";
           $errMSG = "Something went wrong, try again later...";
         }

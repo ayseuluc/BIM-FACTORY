@@ -18,51 +18,44 @@ if($_GET['id']) {
 <!DOCTYPE html>
 <html>
 <head>
+    <title></title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <title>Edit Events</title>
-     <link rel="stylesheet" type="text/css" href="events.css">
-
-  <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- font -->
-  <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Great+Vibes" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Coiny|Indie+Flower" rel="stylesheet">
-
-    <style type="text/css">
-        fieldset {
-            margin: auto;
-            margin-top: 100px;
-            width: 50%;
-        }
-
-        table tr th {
-            padding-top: 20px;
-        }
-    </style>
 </head>
 <body>
-     <div class="container1">
-      <div class="row">
-        <div class="col-md-4">
-          <header id="header" class="myheader">
-            <h1 id="headerh1"></h1>
-          </header>
 
-            <h1 class="h1-top">Global event management company</h1>
+<div id="parallax-world-of-ugg">
+  
+<section>
+   <a id="logo" href="#">The BIM Factory</a>
+ <nav>
+    <ul>
+      <li><a href="#" id="current">Home</a></li>
+      <li><a href="login.php">Courses</a></li>
+      <li><a href="#">Partner</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="login.php">Log In</a></li>
+    </ul>
+  </nav>
+  
+  
 
-            <fieldset>
-                <legend>Update Events</legend>
+</section>
+
+<section>
+  <div class="parallax-three">
+    <h2>BIM EDUCATION AND TRAINING</h2>
+  </div>
+</section>
+
 
                 <form action="actions/a_update_course.php" method="post">
                     <table>
+                        <tr>
+                        <th class="thcreate">Image</th>
+                        <td class="tdadd"><input type="text" name="image" placeholder="image" value="<?php echo $data['image'] ?>" /></td>
+                        </tr> 
                         <tr>
                         <th class="thcreate">Name</th>
                         <td class="tdadd"><input type="text" name="cName" placeholder="cName" value="<?php echo $data['cName'] ?>" /></td>
