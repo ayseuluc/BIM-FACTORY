@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<span>
+<img id="png" src="img/logo.png">
+</span>
+
+<body>
+
+<section id="section-contact" class="hidden" data-section="contact" style="height:calc(100vh - 84px);min-height:100%;position:relative;">
+				<iframe width="100%" height="100%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Kettenbrückengasse+23,+1050+Wien&zoom=17&key=AIzaSyDO4Fw1N1wbj6Mstgl_ydKn7vP9ysUS0TA">
+				</iframe>
+				<div class="contact-info">
+					<span style="font-weight:700">BIM-Venue</span>
+					<span>Kettenbrückengasse 23, 1050 Wien</span>
+					<span>Phone: (0699) 72 58 15 19</span>
+					<span>Email: office@BIM-Venue.at</span>
+      			</div>
+
+</section>
+
+
+
+<section id="hire">
+    <h1>Contact Me</h1>
+    
+    <form>
+	      <div class="field name-box">
+		        <input type="text" id="name" placeholder="Who Are You?"/>
+        		<label for="name">Name</label>
+		        <span class="ss-icon">check</span>
+	      </div>
+
+	      <div class="field email-box">
+		        <input type="text" id="email" placeholder="name@email.com"/>
+		        <label for="email">Email</label>
+		        <span class="ss-icon">check</span>
+	      </div>
+
+	      <div class="field msg-box">
+		        <textarea id="msg" rows="4" placeholder="Your message goes here..."/></textarea>
+		        <label for="msg">Msg</label>
+		        <span class="ss-icon">check</span>
+	      </div>
+
+	      <input class="button" type="submit" value="Send" /><br><br>
+
+  </form>
+</section>
+
+
+
+
+
+
+<script type="text/javascript" src="script.js"></script>
+
+
+<footer class="section-padding--sm footer">
+      Created by: <a class="a" href="https://github.com/hadasamanis99" target="_blank" rel="nofollow">hadasamanis99 - </a>
+      <a class="a" href="https://github.com/ayseuluc" target="_blank" rel="nofollow">ayseuluc - </a>
+      <a class="a" href="https://github.com/Qying23" target="_blank" rel="nofollow">Qying23 - </a>
+      <a class="a" href="https://github.com/giavanna" target="_blank" rel="nofollow">giavanna - </a>
+      <a class="a" href="https://github.com/mirautas" target="_blank" rel="nofollow">mirautas - </a>
+      <a class="a" href="https://github.com/stepienm" target="_blank" rel="nofollow">stepienm</a><br><br><br>
+
+<div>
+    <ul class="footer__social">
+      <li><a class="fa fa-lg fa-envelope-o" href="mailto:thomas.vaeth@gmail.com"></a></li>
+      <li><a class="fa fa-lg fa-github" href="https://github.com/thomasvaeth" target="_blank"></a></li>
+      <li><a class="fa fa-lg fa-codepen" href="https://codepen.io/thomasvaeth/" target="_blank"></a></li>
+      <li><a class="fa fa-lg fa-linkedin" href="https://www.linkedin.com/in/thomasvaeth" target="_blank"></a></li>
+      <li><a class="fa fa-lg fa-twitter" href="https://twitter.com/thomasvaeth" target="_blank"></a></li>
+      <li><a class="fa fa-lg fa-facebook" href="https://www.facebook.com/thomas.vaeth" target="_blank"></a></li>
+      <li><a class="fa fa-lg fa-instagram" href="https://www.instagram.com/thomas.vaeth/" target="_blank"></a></li>  
+    </ul>
+  </div>
+
+</footer>
+
+
+</body>
+</html>
+
+
+
+
+
+
+	
