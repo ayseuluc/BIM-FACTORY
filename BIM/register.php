@@ -117,12 +117,13 @@
    <a id="logo" href="#">The BIM Factory</a>
  <nav>
     <ul>
-    <li><a href="#" id="current">Home</a></li>
+      <li><a href="index.php" id="current">Home</a></li>
       <li><a href="login.php">Courses</a></li>
-      <li><a href="#">Partner</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="news.php">News</a></li>
+      <li><a href="contact.php">Contact</a></li>
+      <li><a href="ourpartners.php">Partner</a></li>
       <li><a href="login.php">Log In</a></li>
-    </ul>
+  </ul>
   </nav>
   
   

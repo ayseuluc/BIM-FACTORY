@@ -26,12 +26,13 @@
    <a id="logo" href="#">The BIM Factory</a>
  <nav>
     <ul>
-	  <li><a href="#" id="current">Home</a></li>
+      <li><a href="index.php" id="current">Home</a></li>
       <li><a href="login.php">Courses</a></li>
-      <li><a href="#">Partner</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="news.php">News</a></li>
+      <li><a href="contact.php">Contact</a></li>
+      <li><a href="ourpartners.php">Partner</a></li>
       <li><a href="login.php">Log In</a></li>
-    </ul>
+  </ul>
   </nav>
   
   
@@ -71,7 +72,7 @@
   										  <div class='box_course'>
    											 <span class='icon-cont'><i class='fa fa-graduation-cap'></i></span>
 			                            		<a href='view.php?id=".$row['cId']."'></a>
-			                            		 <img class='' src='http://localhost/crud/BIM-FACTORY/BIM_Venue/img/".$row['image']."'style='width:100%; height:120px;>
+			                            		 <img class='' src='http://localhost/BIM/img/".$row['image']."'style='width:100%; height:120px;>
 			                              		<div class='caption'>
 				                                <p>".$row['cName']."</p>
 				                                <p>".$row['cPrice']." € </p>
@@ -171,11 +172,11 @@
   										  <div class='box_course'>
    											 <span class='icon-cont'><i class='fa fa-graduation-cap'></i></span>
 			                            		<a href='view.php?id=".$row['cId']."'></a>
-			                            		 <img class='' src='http://localhost/crud/BIM-FACTORY/BIM_Venue/img/".$row['image']."'style='width:100%; height:120px;>
+			                            		 <img class='' src='http://localhost/BIM/img/".$row['image']."'style='width:100%; height:120px;>
 			                              		<div class='caption'>
 				                                <p>".$row['cName']."</p>
 				                                <p>".$row['cPrice']." € </p>
-				                                <a href='view.php?logout' class='custom-btn btn-1' style='color:black;background-color:white;decoretion:none;'>Read More</a>
+				                                <a href='view.php?id=".$row['cId']." ' class='custom-btn btn-1' style='color:black;background-color:white;decoretion:none;'>Read More</a>
 			                              </div>
 			                              </div>
 			                            </a>
