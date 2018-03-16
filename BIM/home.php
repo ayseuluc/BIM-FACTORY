@@ -14,30 +14,31 @@
 <html>
 <head>
 	<title></title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="css/h_style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
 
-<div id="parallax-world-of-ugg">
-  
-<section>
-   <a id="logo" href="#">The BIM Factory</a>
- <nav>
-    <ul>
-      <li><a href="index.php" id="current">Home</a></li>
-      <li><a href="login.php">Courses</a></li>
-      <li><a href="news.php">News</a></li>
-      <li><a href="contact.php">Contact</a></li>
-      <li><a href="ourpartners.php">Partner</a></li>
-      <li><a href="login.php">Log In</a></li>
-  </ul>
-  </nav>
-  
-  
+     <div id="parallax-world-of-ugg">
+          
+            <section>
+              <img id="png" src="img/logo.png" alt="">
+                <nav>
+                   <ul>
+                        <li><a href="index.php" id="current">Home |</a></li>
+                        <li><a href="login.php">Courses |</a></li>
+                        <li><a href="booking.php">Booking|</a></li>
+                        <li><a href="news.php">News |</a></li>
+                        <li><a href="contact.php">Contact |</a></li>
+                        <li><a href="ourpartners.php">Partner |</a></li>
+                        <li><a href="register.php">Register Now or Sign In</a></li>
 
-</section>
+
+                    
+                  </ul>
+                </nav>
+            </section>
 
 <section>
   <div class="parallax-three">
@@ -59,6 +60,7 @@
 		<div class="">
 	
 			    <table border="1" cellspacing="0" cellpadding="0">
+
 			        <tbody>
 			      		<?php
 
@@ -211,5 +213,13 @@
 				
 
 </div>
+<footer>
+        <a class="fa fa-lg fa-github" href="https://github.com/hadasamanis99" style="text-decoration: none; color: grey;">Hadasa Geiger |</a>
+        <a class=" fa fa-lg fa-github" href="https://github.com/ayseuluc"  style="text-decoration: none; color: grey;">Ayse Uluc |</a>
+        <a class=" fa fa-lg fa-github" href="https://github.com/Qying23"  style="text-decoration: none; color: grey;">Ying Qi |</a>
+        <a class=" fa fa-lg fa-github" href="https://github.com/giavanna"  style="text-decoration: none; color: grey;">Giava Ferrandina |</a>
+        <a class=" fa fa-lg fa-github" href="https://github.com/mirautas"  style="text-decoration: none; color: grey;">Simona Mirauta |</a>
+        <a class=" fa fa-lg fa-github" href="https://github.com/stepienm"  style="text-decoration: none; color: grey;">Manuela Stepien |</a>
+    </footer>
 </body>
 </html>

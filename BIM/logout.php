@@ -19,37 +19,3 @@
 
 ?>
 
-<!DOCTYPE html>
-<html>
-<head>
-  <title></title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-</head>
-<body>
-
-<div id="parallax-world-of-ugg">
-  
-<section>
-   <a id="logo" href="#">The BIM Factory</a>
- <nav>
-     <ul>
-      <li><a href="index.php" id="current">Home</a></li>
-      <li><a href="login.php">Courses</a></li>
-      <li><a href="news.php">News</a></li>
-      <li><a href="contact.php">Contact</a></li>
-      <li><a href="ourpartners.php">Partner</a></li>
-      <li><a href="login.php">Log In</a></li>
-  </ul>
-  </nav>
-  
-  
-
-</section>
-
-<section>
-  <div class="parallax-three">
-    <h2>BIM EDUCATION AND TRAINING</h2>
-  </div>
-</section>

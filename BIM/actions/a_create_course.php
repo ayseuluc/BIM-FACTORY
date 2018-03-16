@@ -7,34 +7,25 @@
 <html>
 <head>
     <title></title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="../style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
 
-<div id="parallax-world-of-ugg">
-  
 <section>
-   <a id="logo" href="#">The BIM Factory</a>
- <nav>
-    <ul>
-      <li><a href="#" id="current">Home</a></li>
-      <li><a href="login.php">Courses</a></li>
-      <li><a href="#">Partner</a></li>
-      <li><a href="#">Contact</a></li>
-      <li><a href="login.php">Log In</a></li>
-    </ul>
-  </nav>
-  
-  
-
-</section>
-
-<section>
-  <div class="parallax-three">
-    <h2>BIM EDUCATION AND TRAINING</h2>
-  </div>
+                <img id="png" src="../img/logo.png" alt="">
+                <nav>
+                   <ul>
+                        <li><a href="index.php" id="current">Home |</a></li>
+                        <li><a href="login.php">Courses |</a></li>
+                        <li><a href="booking.php">Booking|</a></li>
+                        <li><a href="news.php">News |</a></li>
+                        <li><a href="contact.php">Contact |</a></li>
+                        <li><a href="ourpartners.php">Partner |</a></li>
+                        <li><a href="register.php">Register Now or Sign In</a></li>
+                  </ul>
+                </nav>
 </section>
 
 <?php
@@ -54,9 +45,9 @@ if($_POST) {
 	    $sql = "INSERT INTO cours (cName, cBegin, cEnd, cDetails, cSchedule, cDescription, cPrice, capacity) VALUES ('$cName', '$cBegin', '$cEnd', '$cDetails', '$cSchedule', ' $cDescription', '$cPrice', '$capacity')";
 
 	    if($conn->query($sql) === TRUE) {
-	        echo '<p style="color:black; margin-top:30px;">New Record Successfully Created</p>';
-	        echo "<a href='../create_course.php'><button type='button' class='custom-btn btn-1'>Back</button></a>";
-	        echo "<a href='../home.php'><button type='button' class='custom-btn btn-1'>Home</button></a>";
+	        echo '<p style="color: black;margin-top:30px; margin-left: 30%; font-size: 25pt;">New Course Successfully Created</p>';
+	        echo "<a href='../create_course.php'><button type='button' style='margin-left: 30%' class='custom-btn'>Back to creator</button></a>";
+	        echo "<a href='../home.php'><button type='button'  class='custom-btn'>Back to courses</button></a>";
 	    } else {
 	        echo "Error " . $sql . ' ' . $conn->connect_error;
 	    }
@@ -65,12 +56,5 @@ if($_POST) {
 
 ?>
 
-	 </div>
-	</div>
-	<div>
-            
-                     
-                </div> 
-</div>
 </body>
 </html>

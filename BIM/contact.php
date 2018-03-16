@@ -11,17 +11,25 @@
 
 <body>
 <header>
-				 <a id="logo" href="#">The BIM Factory</a>
-				<nav>
-				    <ul>
-						<li><a href="index.php" id="current">Home</a></li>
-					    <li><a href="login.php">Courses</a></li>
-					    <li><a href="news.php">News</a></li>
-					    <li><a href="contact.php">Contact</a></li>
-					    <li><a href="ourpartners.php">Partner</a></li>
-					    <li><a href="login.php">Log In</a></li>
-				    </ul>
-				</nav>
+	     <div id="parallax-world-of-ugg">
+          
+            <section>
+              <img id="png" src="img/logo.png" alt="">
+                <nav>
+                   <ul>
+                        <li><a href="index.php" id="current">Home |</a></li>
+                        <li><a href="login.php">Courses |</a></li>
+                        <li><a href="booking.php">Booking|</a></li>
+                        <li><a href="news.php">News |</a></li>
+                        <li><a href="contact.php">Contact |</a></li>
+                        <li><a href="ourpartners.php">Partner |</a></li>
+                        <li><a href="register.php">Register Now or Sign In</a></li>
+
+
+                    
+                  </ul>
+                </nav>
+            </section>
 			</header>
 
 
@@ -40,17 +48,7 @@
 
 
 <section id="hire">
-  <h1>Contact US</h1>
-   <div>
-    <ul class="social" style="text-align: center">
-      <a class="fa fa-lg fa-envelope-o" href="#"></a>
-      <a class="fa fa-lg fa-linkedin" href="#" target="_blank"></a>
-      <a class="fa fa-lg fa-twitter" href="#" target="_blank"></a>
-      <a class="fa fa-lg fa-facebook" href="#" target="_blank"></a>
-      <a class="fa fa-lg fa-instagram" href="#" target="_blank"></a>
-    </ul>
-   </div>	
-
+  <h1>Contact US</h1>	
     <form>
       <div class="field name-box">
 		        <input type="text" id="name" placeholder="Who Are You?"/>
@@ -75,22 +73,15 @@
   </form>
 </section>
 
-
-
 <footer>
-      <span>Created by:</span>
-      <br>
-
-      <a class="a fa fa-lg fa-github" href="https://github.com/hadasamanis99" target="_blank" rel="nofollow">hadasamanis99 |</a>
-      <a class="a fa fa-lg fa-github" href="https://github.com/ayseuluc" target="_blank" rel="nofollow">ayseuluc |</a>
-      <a class="a fa fa-lg fa-github" href="https://github.com/Qying23" target="_blank" rel="nofollow">Qying23 |</a>
-      <a class="a fa fa-lg fa-github" href="https://github.com/giavanna" target="_blank" rel="nofollow">giavanna |</a>
-      <a class="a fa fa-lg fa-github" href="https://github.com/mirautas" target="_blank" rel="nofollow">mirautas |</a>
-      <a class="a fa fa-lg fa-github" href="https://github.com/stepienm" target="_blank" rel="nofollow">stepienm</a><br><br><br>
-
-</footer>
-
-</body>
+	      <a class="fa fa-lg fa-github" href="https://github.com/hadasamanis99" style="text-decoration: none; color: grey;">Hadasa Geiger |</a>
+	      <a class=" fa fa-lg fa-github" href="https://github.com/ayseuluc"  style="text-decoration: none; color: grey;">Ayse Uluc |</a>
+	      <a class=" fa fa-lg fa-github" href="https://github.com/Qying23"  style="text-decoration: none; color: grey;">Ying Qi |</a>
+	      <a class=" fa fa-lg fa-github" href="https://github.com/giavanna"  style="text-decoration: none; color: grey;">Giava Ferrandina |</a>
+	      <a class=" fa fa-lg fa-github" href="https://github.com/mirautas"  style="text-decoration: none; color: grey;">Simona Mirauta |</a>
+	      <a class=" fa fa-lg fa-github" href="https://github.com/stepienm"  style="text-decoration: none; color: grey;">Manuela Stepien |</a>
+		</footer>
+	</body>
 </html>
 
 

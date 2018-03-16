@@ -51,11 +51,7 @@ html {
 
 /* Section - Parallax */
 /**************************/
-#parallax-world-of-ugg .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://images.unsplash.com/photo-1493117045231-7be43e235911?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d68eda2655da010079d05bfc3ae2c4f1&auto=format&fit=crop&w=1059&q=80); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
-#parallax-world-of-ugg .parallax-two {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://static.wixstatic.com/media/91d4d0_51e4242e97bd437d895d62024c8ea2d5.jpg/v1/fill/w_980,h_524,al_c,q_85,usm_2.00_1.00_0.00/91d4d0_51e4242e97bd437d895d62024c8ea2d5.webp); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
 #parallax-world-of-ugg .parallax-three {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://images.unsplash.com/photo-1508141610389-6253d977b87e?ixlib=rb-0.3.5&s=f304e1f819d9a94b998b05cb83eac944&auto=format&fit=crop&w=1466&q=80); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
-#parallax-world-of-ugg .parallax-four {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://images.unsplash.com/photo-1502371885918-4d1385c99a26?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=aca4003ddb81d2d9b034e9bb3a7d25f7&auto=format&fit=crop&w=750&q=80); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
-#parallax-world-of-ugg .parallax-five {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(img/admin.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center center;}
 
 /* Extras */
 /**************************/
@@ -79,12 +75,12 @@ html {
 
 
 /*NAVBAR*/
+
+
 #png{
   width: 10%;
   margin-left: 15px;
 }
-
-
 nav {
   float: right;
 }
@@ -127,7 +123,7 @@ nav ul li a:hover {
 
 .box_course {
   width: 30%;
-  height: 700px;
+  height: 375px;
   margin: 0.2%;
   padding: 15px;
   box-sizing: border-box;
@@ -188,13 +184,10 @@ nav ul li a:hover {
 
 /*Course button*/
 .buttons-coll {
-  
-
   text-align: center;
 }
-button {
-  margin: 20px;
-}
+
+
 .custom-btn {
   padding: 10px 25px;
   font-size: 12pt;
@@ -214,83 +207,6 @@ button {
 }
 .btn-1:active {top: 2px;}
 
-
-
-/*form*/
-
-#container {
-    width: 400px;
-    height: 450px;
-    margin-left: 30%;
-    top: 50%;
-    right: 50%;
-    background: #fff;
-    border-radius: 3px;
-    border: 1px solid #ccc;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
-    margin-bottom: 6%;
-    margin-top: 10px;
-
-  
-}
-form {
-    margin: 0 auto;
-    
-}
-label {
-    color: #555;
-    display: inline-block;
-    margin-left: 18px;
-    font-size: 14px;
-}
-p a {
-    font-size: 11px;
-    color: #aaa;
-    float: center;
-    margin-top: -13px;
-    margin-right: 20px;
- -webkit-transition: all .4s ease;
-    -moz-transition: all .4s ease;
-    transition: all .4s ease;
-}
-p a:hover {
-    color: #555;
-}
-input {
-   
-    font-size: 15px;
-    outline: none;
-}
-input[type=text],
-input[type=email],
-input[type=password] {
-    color: #777;
-    padding-left: 10px;
-    margin-top: 12px;
-    margin-left: 18px;
-    width: 300px;
-    height: 45px;
-  border: 1px solid #c7d0d2;
-    border-radius: 2px;
-    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #f5f7f8;
--webkit-transition: all .4s ease;
-    -moz-transition: all .4s ease;
-    transition: all .4s ease;
-  }
-input[type=text]:hover,
-input[type=email]:hover,
-input[type=password]:hover {
-    border: 1px solid #b6bfc0;
-    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .7), 0 0 0 5px #f5f7f8;
-}
-input[type=text]:focus,
-input[type=email]:focus
-input[type=password]:focus {
-    border: 1px solid #a8c9e4;
-    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #e6f2f9;
-}
-
-}
 
 
 

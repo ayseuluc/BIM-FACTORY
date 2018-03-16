@@ -111,36 +111,36 @@
 </head>
 <body>
 
-<div id="parallax-world-of-ugg">
-  
-<section>
-   <a id="logo" href="#">The BIM Factory</a>
- <nav>
-    <ul>
-      <li><a href="index.php" id="current">Home</a></li>
-      <li><a href="login.php">Courses</a></li>
-      <li><a href="news.php">News</a></li>
-      <li><a href="contact.php">Contact</a></li>
-      <li><a href="ourpartners.php">Partner</a></li>
-      <li><a href="login.php">Log In</a></li>
-  </ul>
-  </nav>
-  
-  
+     <div id="parallax-world-of-ugg">
+          
+            <section>
+              <img id="png" src="img/logo.png" alt="">
+                <nav>
+                   <ul>
+                        <li><a href="index.php" id="current">Home |</a></li>
+                        <li><a href="login.php">Courses |</a></li>
+                        <li><a href="booking.php">Booking|</a></li>
+                        <li><a href="news.php">News |</a></li>
+                        <li><a href="contact.php">Contact |</a></li>
+                        <li><a href="ourpartners.php">Partner |</a></li>
+                        <li><a href="register.php">Register Now or Sign In</a></li>
 
-</section>
+
+                    
+                  </ul>
+                </nav>
+            </section>
 
 <section>
-  <div class="parallax-three">
-    <h2>BIM EDUCATION AND TRAINING</h2>
+  <div class="parallax-four">
+    <h2>Sign In Today</h2>
   </div>
 </section>
 
-      <div class="col-lg-5 col-md-5 col-5 offset-lg-5 offset-md-5 col-offset-5" id="box">
           <form method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" autocomplete="off">
-              <h2>Sign Up.</h2>
+            
           
-          <a href="login.php" class="custom-btn btn-1">Sign in Here...</a>
+          
               <hr />
 
               <?php
@@ -168,14 +168,33 @@
 
           <span class="text-danger"><?php echo $passError; ?></span>
 
+          <input type="checkbox"><label class="check" for="checkbox">I agree to terms</label>
+
+          <button type="submit" class="custom-btn" name="btn-signup">Sign Up</button>
+
+          <button class='custom-btn'><a href='login.php'>Sign in Here...</a></button>
+          
+        
+                
+           
+          </div><!--/ lower-->
+
           <hr />
 
-          <button type="submit" class="custom-btn btn-1" name="btn-signup">Sign Up</button>
+          
            
         </div>
       </div>
     </div>
     </form>
+        <footer>
+        <a class="fa fa-lg fa-github" href="https://github.com/hadasamanis99" style="text-decoration: none; color: grey;">Hadasa Geiger |</a>
+        <a class=" fa fa-lg fa-github" href="https://github.com/ayseuluc"  style="text-decoration: none; color: grey;">Ayse Uluc |</a>
+        <a class=" fa fa-lg fa-github" href="https://github.com/Qying23"  style="text-decoration: none; color: grey;">Ying Qi |</a>
+        <a class=" fa fa-lg fa-github" href="https://github.com/giavanna"  style="text-decoration: none; color: grey;">Giava Ferrandina |</a>
+        <a class=" fa fa-lg fa-github" href="https://github.com/mirautas"  style="text-decoration: none; color: grey;">Simona Mirauta |</a>
+        <a class=" fa fa-lg fa-github" href="https://github.com/stepienm"  style="text-decoration: none; color: grey;">Manuela Stepien |</a>
+    </footer>
 
 </body>
 </html>

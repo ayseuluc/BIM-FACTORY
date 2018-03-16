@@ -6,6 +6,8 @@
     <title></title>
     <link rel="stylesheet" type="text/css" href="../css/addStyle.css">
 
+
+
 </head>
 <body>
 
@@ -26,10 +28,10 @@ if($_POST) {
 
     if($conn->query($sql) === TRUE) {
         echo "<div>
-        <center> <h2>You will get a Email about that cours and the payment information</h2></center>
+        <center> <img style='width:70%' src='https://i0.wp.com/www.scoutingforbeer.org.uk/wp-content/uploads/2016/04/thank-you-1400x800-c-default.gif'></center>
     </div>";
        
-        echo "<a href='../home.php'><button type='button'>Home</button></a>";
+        echo "<a href='../home.php'><button style='width:20%; height:20%; background: #E6EEF4; margin-left: 40%;' type='button'>Back to courses</button></a>";
     } else {
         echo "Error " . $sql . ' ' . $conn->conn_error;
     }
@@ -38,6 +40,8 @@ if($_POST) {
 }
 
 ?>
+
+
 
 </body>
 </html>

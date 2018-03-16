@@ -82,18 +82,6 @@
           </a>
         </li>
       </ul>
-      <footer class="section-padding--sm footer">
-        <a class="footer__archive" href="#">Archive</a>
-        <ul class="footer__social">
-          <li><a class="fa fa-lg fa-envelope-o" href="#"></a></li>
-          <li><a class="fa fa-lg fa-github" href="#" target="_blank"></a></li>
-          <li><a class="fa fa-lg fa-codepen" href="#" target="_blank"></a></li>
-          <li><a class="fa fa-lg fa-linkedin" href="#" target="_blank"></a></li>
-          <li><a class="fa fa-lg fa-twitter" href="#" target="_blank"></a></li>
-          <li><a class="fa fa-lg fa-facebook" href="#" target="_blank"></a></li>
-          <li><a class="fa fa-lg fa-instagram" href="#" target="_blank"></a></li> 
-        </ul>
-      </footer>
     </div>
 
     <div class="tab">
@@ -147,23 +135,9 @@
           </a>
         </li>
       </ul>
-      <footer class="section-padding--sm footer">
-        <a class="footer__archive" href="#">Archive</a>
-        <ul class="footer__social">
-          <li><a class="fa fa-lg fa-envelope-o" href="mailto:thomas.vaeth@gmail.com"></a></li>
-          <li><a class="fa fa-lg fa-github" href="https://github.com/thomasvaeth" target="_blank"></a></li>
-          <li><a class="fa fa-lg fa-codepen" href="https://codepen.io/thomasvaeth/" target="_blank"></a></li>
-          <li><a class="fa fa-lg fa-linkedin" href="https://www.linkedin.com/in/thomasvaeth" target="_blank"></a></li>
-          <li><a class="fa fa-lg fa-twitter" href="https://twitter.com/thomasvaeth" target="_blank"></a></li>
-          <li><a class="fa fa-lg fa-facebook" href="https://www.facebook.com/thomas.vaeth" target="_blank"></a></li>
-          <li><a class="fa fa-lg fa-instagram" href="https://www.instagram.com/thomas.vaeth/" target="_blank"></a></li>  
-        </ul>
-      </footer>
     </div>
   </section>
 </main>
-  
-
   <script type="text/javascript" src="js/n_script.js"></script>
 </body>
 </html>

@@ -88,36 +88,32 @@
 </head>
 <body>
 
-<div id="parallax-world-of-ugg">
-  
-<section>
-   <a id="logo" href="#">The BIM Factory</a>
- <nav>
-      <ul>
-      <li><a href="index.php" id="current">Home</a></li>
-      <li><a href="login.php">Courses</a></li>
-      <li><a href="news.php">News</a></li>
-      <li><a href="contact.php">Contact</a></li>
-      <li><a href="ourpartners.php">Partner</a></li>
-      <li><a href="login.php">Log In</a></li>
-  </ul>
-  </nav>
-  
-  
+     <div id="parallax-world-of-ugg">
+          
+            <section>
+              <img id="png" src="img/logo.png" alt="">
+                <nav>
+                   <ul>
+                        <li><a href="index.php" id="current">Home |</a></li>
+                        <li><a href="login.php">Courses |</a></li>
+                        <li><a href="booking.php">Booking|</a></li>
+                        <li><a href="news.php">News |</a></li>
+                        <li><a href="contact.php">Contact |</a></li>
+                        <li><a href="ourpartners.php">Partner |</a></li>
+                        <li><a href="register.php">Register Now or Sign In</a></li>
 
-</section>
 
+                    
+                  </ul>
+                </nav>
+            </section>
 <section>
   <div class="parallax-three">
     <h2>BIM EDUCATION AND TRAINING</h2>
   </div>
 </section>
 
-      
-      <div class="form_div">
-          <div id="link">
-            <a href="register.php" class="custom-btn btn-1">Sign Up Here...</a>
-          </div>
+        <div id="container">
         <form class="form-inline" method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" autocomplete="off">
 
 
@@ -129,28 +125,36 @@
             }
 
           ?>
-          <input type="email" name="email" class="form-control" placeholder="email" value="<?php echo $email; ?>" maxlength="40" />
+          <img src="img/logo.png" style="margin-left: 120px; width: 140px;">
+          <h1 style="text-align: center;">Welcome Back</h1>
+          <label for="email">Username:</label>
+           <input type="email" name="email" class="form-control" placeholder="email" value="<?php echo $email; ?>" maxlength="40" />
 
           <span class="text-danger"><?php echo $emailError; ?></span>
 
+          <label for="password">Password:</label>
           <input type="password" name="pass" class="form-control" placeholder="password" maxlength="15" value="<?php echo $pass; ?>"/>
 
           <span class="text-danger"><?php echo $passError; ?></span>
 
+          <a href="register.php" class="custom-btn">New Account</a>
 
           <button type="submit" name="btn-login" class="custom-btn btn-1">Login</button>
-          
-        </form>
         </div>
-      </div>
-    </div> 
+      </form>
+    </div>
+  </div>
+</div> 
     </header><!-- /header -->
 </div>
-                    <div>
-                      <footer class="fixed-bottom">
-                        <p> &copy;CodeFactory 2018</p>     
-                      </footer>
-                    </div> 
-</body>
+<footer>
+        <a class="fa fa-lg fa-github" href="https://github.com/hadasamanis99" style="text-decoration: none; color: grey;">Hadasa Geiger |</a>
+        <a class=" fa fa-lg fa-github" href="https://github.com/ayseuluc"  style="text-decoration: none; color: grey;">Ayse Uluc |</a>
+        <a class=" fa fa-lg fa-github" href="https://github.com/Qying23"  style="text-decoration: none; color: grey;">Ying Qi |</a>
+        <a class=" fa fa-lg fa-github" href="https://github.com/giavanna"  style="text-decoration: none; color: grey;">Giava Ferrandina |</a>
+        <a class=" fa fa-lg fa-github" href="https://github.com/mirautas"  style="text-decoration: none; color: grey;">Simona Mirauta |</a>
+        <a class=" fa fa-lg fa-github" href="https://github.com/stepienm"  style="text-decoration: none; color: grey;">Manuela Stepien |</a>
+    </footer> 
+  </body>
 </html>
 <?php ob_end_flush(); ?>

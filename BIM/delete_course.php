@@ -24,22 +24,25 @@ if($_GET['id']) {
 
 <div id="parallax-world-of-ugg">
   
-<section>
-   <a id="logo" href="#">The BIM Factory</a>
- <nav>
-    <ul>
-      <li><a href="index.php" id="current">Home</a></li>
-      <li><a href="login.php">Courses</a></li>
-      <li><a href="news.php">News</a></li>
-      <li><a href="contact.php">Contact</a></li>
-      <li><a href="ourpartners.php">Partner</a></li>
-      <li><a href="login.php">Log In</a></li>
-  </ul>
-  </nav>
-  
-  
+          
+            <section>
+              <img id="png" src="img/logo.png" alt="">
+                <nav>
+                   <ul>
+                        <li><a href="index.php" id="current">Home |</a></li>
+                        <li><a href="login.php">Courses |</a></li>
+                        <li><a href="booking.php">Booking|</a></li>
+                        <li><a href="news.php">News |</a></li>
+                        <li><a href="contact.php">Contact |</a></li>
+                        <li><a href="ourpartners.php">Partner |</a></li>
+                        <li><a href="login.php?logout">Sign In| </a></li>
+                        <li><a href="register.php">Register Now or Sign In</a></li>
 
-</section>
+
+                    
+                  </ul>
+                </nav>
+            </section>
 
 <section>
   <div class="parallax-three">

@@ -16,12 +16,11 @@ if($_GET['id']) {
     <head>
 
         <title>View Event</title>
-        <link rel="stylesheet" type="text/css" href="css/addStyle.css">
+        <link rel="stylesheet" type="text/css" href="css/v_style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <style>
-            body{
-              background-color:#e1f4f5;
-            }
+
+           
             .scart{
                 background-color:#19c3cc;
                 width: 170px;
@@ -55,7 +54,7 @@ if($_GET['id']) {
             }
 
             table {
-              font-family: arial, sans-serif;
+              font-family:Source Sans Pro, sans-serif;
               border-collapse: collapse;
               width: 100%;
             }
@@ -69,29 +68,51 @@ if($_GET['id']) {
                 text-align: left;
                 padding: 8px;
                 width: 20%;
-                background-color: white;    
+                   
               }
               th{
                 color: grey;
+                font-family: Oswals, sans-serif;
               }
             button{
                 font-size: 20px;
                 border-radius: 5px;
                 
             }
-            /*----------------------shopping cart--------------*/
 
 
         </style>
     </head>
 
     <body>
-       
-<!-- ********** shopping cart ********** -->
+         <div id="parallax-world-of-ugg">
+          
+            <section>
+              <img id="png" src="img/logo.png" alt="">
+                <nav>
+                   <ul>
+                        <li><a href="index.php" id="current">Home |</a></li>
+                        <li><a href="login.php">Courses |</a></li>
+                        <li><a href="booking.php">Booking|</a></li>
+                        <li><a href="news.php">News |</a></li>
+                        <li><a href="contact.php">Contact |</a></li>
+                        <li><a href="ourpartners.php">Partner |</a></li>
+                        <li><a href="register.php">Register Now or Sign In</a></li>
+                        
+
+                    
+                  </ul>
+                </nav>
+            </section>
+
+
+<!-- ********** booking  ********** -->
+
 
         <fieldset>
 
-            <legend>Cours View</legend>
+                    <h1><span class="first-character atw">C</span>ourse</h1>
+                    <h1><span class="first-character atw">D</span>etails</h1>
 
             <form action="actions/a_create.php" method="post">
 
@@ -124,22 +145,34 @@ if($_GET['id']) {
                     </tr>
                      
                     
+                    <div class='buttons-coll'>
                     <tr>
-                        
-                        <th><a href="index.php"><button type="button">Back</button></a></th>
-                        <td><a href="booking.php"><button type="button">Booking</button></a></td>
+    
+                        <th><a href="index.php"><button class="custom-btn btn-1" type="button">Back</button></a></th>
+                        <td><a href="booking.php"><button class="custom-btn btn-1" type="button">Booking</button></a></td>
                     </tr>
-                   
+                    </div>  
+
+
+
+
 
                 </table>
 
             </form>
-
         </fieldset>
 
 
   
     </body>
+            <footer>
+        <a class="fa fa-lg fa-github" href="https://github.com/hadasamanis99" style="text-decoration: none; color: grey;">Hadasa Geiger |</a>
+        <a class=" fa fa-lg fa-github" href="https://github.com/ayseuluc"  style="text-decoration: none; color: grey;">Ayse Uluc |</a>
+        <a class=" fa fa-lg fa-github" href="https://github.com/Qying23"  style="text-decoration: none; color: grey;">Ying Qi |</a>
+        <a class=" fa fa-lg fa-github" href="https://github.com/giavanna"  style="text-decoration: none; color: grey;">Giava Ferrandina |</a>
+        <a class=" fa fa-lg fa-github" href="https://github.com/mirautas"  style="text-decoration: none; color: grey;">Simona Mirauta |</a>
+        <a class=" fa fa-lg fa-github" href="https://github.com/stepienm"  style="text-decoration: none; color: grey;">Manuela Stepien |</a>
+    </footer>
 
 </html>
 

@@ -8,20 +8,9 @@
 /*NAVBAR*/
 
 
-#logo {
-  float: left;
-  font-size: 3em;
-  margin: 0;
-  padding: .4em;
-  text-decoration: none;
-  color: #333;
-  border-right: 1px solid #e3e3e8;
-  transition: .89s all;
-  font-family:'Oswald', sans-serif; 
-}
-#logo:hover {
-  color: #fafafa;
-  background-color: #333;
+#png{
+  width: 10%;
+  margin-left: 15px;
 }
 nav {
   float: right;
@@ -64,7 +53,7 @@ h1 {
   font-family: 'Oswald', sans-serif;
   font-weight: 100;
   text-align: center;
-  margin-top: 20%;
+  
 }
 
 
@@ -215,45 +204,14 @@ form input[type="submit"]:focus {
 
 
 
-/**
- * Footer
- */
-
+/* Footer*/
 
 footer{
-  font-size: 20px;
+  font-size: 15px;
   text-align:center;
 }
-  a{
-  text-decoration: none;
-  color: grey;
-   font-family: 'Source Sans Pro', sans-serif;
-  text-align: center;
-
-}
- 
 
 @media screen and (max-width: 959px) and (min-width: 768px) {
   .footer {padding: 40px; width:620px;}
-
-
-
-
-@media (min-width: 30em) {
-  .social {
-    margin-top: 0;
-  }
-}
-.social > *:not(:last-child) {
-  margin-right: 1em;
-  align-items: center;
 }
 
-.fa{
-  color:black;
-  opacity: 0.5;
-}
-
-.fa:hover{
-  color:grey;
-}*/
