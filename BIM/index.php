@@ -8,6 +8,8 @@ require_once 'actions/db_connect.php';
 		<title>index.php</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 	</head>
 	<body>
 	     <div id="parallax-world-of-ugg">
@@ -50,6 +52,160 @@ require_once 'actions/db_connect.php';
 			    	<iframe width="800" height="550" src="https://www.youtube.com/embed/B2vmlBXRuBU" frameborder="0" allowfullscreen></iframe>
 
 				</div>
+				<div class="block">
+			  		<h1>
+			  			<span class="first-character sc">O</span>ur Team</h1><br><br>
+				   
+		
+
+				    <p class="line-break margin-top-10"></p>
+				</div>
+
+				<!--OUR TEAM-->
+			  	
+
+    
+			    <div class="container">
+			        <div class="row">
+			            <div class="content">
+			                <div class="box_course">
+			                    <div class="wow fadeInUp" data-wow-delay="0.2s">
+			                        <div class="align-center">
+			                            <h4>Manuela</h4>  
+			                       
+			                            <img src="img/manuela.png" alt="" class="img-responsive" width="220px;" height="220px;"  style="border-radius:50%;">
+			                            
+			                            <h1> Secretary  <h1> <p>
+			                                stepien_manuela@hotmail.com </p>
+			                            <div class="anything">
+			                                <div class="social-network">
+			                                <a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook "></i></a> 
+			                                <a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter "></i></a>
+			                                <a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin "></i></a>
+			                                <a href="#" data-placement="top" title="Github"><i class="fa fa-github "></i></a>
+			                                </div>
+			                                <br><br>
+			                            </div>
+			                            
+			                        </div>
+			                    </div>
+			                </div>
+			                <div class="box_course">
+			                    <div class="wow fadeInUp" data-wow-delay="0.4s">
+			                        <div class="align-center">
+			                            <h4>Ayse Uluc</h4>                   
+			                            
+			                            <img src="img/Ayse.jpg" alt="" class="img-responsive" width="220px;" height="220px;"  style="border-radius:50%;"">
+			                            <h1> Graphics Designer </h1> <p>
+			                               ayseuluc@live.at </p>
+			                            <div >
+			                                <div class="social-network">
+			                                <a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook "></i></a>
+			                                <a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter "></i></a>
+			                                <a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin "></i></a>
+			                                <a href="#" data-placement="top" title="Github"><i class="fa fa-github "></i></a>
+			                                </div>
+			                                <br><br>
+			                            </div>
+			                            
+			                        </div>
+			                    </div>
+			                </div>
+			                <div class="box_course">
+			                    <div class="wow fadeInUp" data-wow-delay="0.5s">
+			                        <div class="align-center">
+			                            <h4>Simona Mirauta</h4>                  
+			                            <img src="img/simona.jpg" alt="" class="img-responsive" width="220px;" height="220px;"  style="border-radius:50%;"">
+			                            <h1>
+			                             Full Stack Web Developer </h1><p> smirauta@gmx.at
+			                            </p>
+			                               <div >
+			                                <div class="social-network">
+			                                <a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook "></i></a>
+			                                <a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter "></i></a>
+			                                <a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin "></i></a>
+			                                <a href="#" data-placement="top" title="Github"><i class="fa fa-github "></i></a>
+			                                </div>
+			                                <br><br>
+			                            </div>
+			                           
+			                        </div>
+			                    </div>
+			                </div>
+
+			                <div class="box_course">
+			                    <div class="wow fadeInUp" data-wow-delay="0.7s">
+			                        <div class="align-center">
+			                        	
+			                            <h4>Hadasa Geiger</h4>                   
+			                           
+			                            <img src="img/hadasa.jpg" alt="" class="img-responsive" width="220px;" height="220px;"  style="border-radius:50%;"">
+			                            <h1> Project Manager</h1>  <p>
+			                                hadasageiger@gmail.com </p>
+			                            <div >
+			                                <div class="social-network">
+			                                <a href="https://www.facebook.com/hadasa.pinling" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+			                                <a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+			                                <a href="https://www.linkedin.com/in/hadasa-geiger-447398142/" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+			                                <a href="https://github.com/hadasamanis99" data-placement="top" title="Github"><i class="fa fa-github"></i></a>
+			                                </div>
+			                                <br><br>
+			                            </div>
+			                            
+			                        </div>
+			                    </div>
+			                </div>
+			                 <div class="box_course">
+			                    <div class="wow fadeInUp" data-wow-delay="0.6s">
+			                        <div class="align-center">
+			                            <h4>Ying Qi </h4>                   
+			                           
+			                            <img src="img/ying.jpg" alt="" class="img-responsive" width="220px;" height="220px;"  style="border-radius:50%;"">
+			                            <h1> 
+			                            Human Resources <br>Management  </h1> <p>
+			                            qying23@gmail.com
+			                            </p>
+			                             <div >
+			                                <div class="social-network">
+			                                <a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+			                                <a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+			                                <a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+			                                <a href="#" data-placement="top" title="Github"><i class="fa fa-github"></i></a>
+			                                </div>
+			                                <br><br>
+			                            </div>
+			                            
+			                        </div>
+			                    </div>
+			                </div>
+			                <div class="box_course">
+			                    <div class="wow fadeInUp" data-wow-delay="0.6s">
+			                        <div class="align-center">
+			                            <h4>Giava Ferrandina </h4>                   
+			                           
+			                            <img src="img/giava.jpg" alt="" class="img-responsive" width="220px;" height="220px;"  style="border-radius:50%;">
+			                            <h1>
+			                            Back End Web Developer </h1>
+			                            <p>giava.ferrandina@gmail.com
+			                            </p>
+			                             <div >
+			                                <div class="social-network">
+			                                <a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+			                                <a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter "></i></a>
+			                                <a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+			                                <a href="#" data-placement="top" title="Github"><i class="fa fa-github"></i></a>
+			                                </div>
+			                                <br><br>
+			                            </div>
+			                           
+			                        </div>
+			                    </div>
+			                </div>
+
+			            </div>
+			        </div>
+			    </div>
+	    
 			</section>
 
 			<section>
