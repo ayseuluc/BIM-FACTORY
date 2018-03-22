@@ -103,15 +103,14 @@
 
 <!DOCTYPE html>
 <html>
-<head>
-  <title></title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <head>
+    <title>register</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
 
-</head>
-<body>
-
-     <div id="parallax-world-of-ugg">
+  <body>
+     <div id="parallax">
           
             <section>
               <img id="png" src="img/logo.png" alt="">
@@ -123,79 +122,75 @@
                         <li><a href="news.php">News |</a></li>
                         <li><a href="contact.php">Contact |</a></li>
                         <li><a href="ourpartners.php">Partner |</a></li>
-                        <li><a href="register.php">Register Now or Sign In</a></li>
-
-
-                    
+                        <li><a href="register.php">Register</a></li>
+                        <li><button class="btn" id="sign-out">
                   </ul>
                 </nav>
             </section>
 
-<section>
-  <div class="parallax-four">
-    <h2>Sign In Today</h2>
-  </div>
-</section>
 
-          <form method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" autocomplete="off">
+          <section>
+            <div class="parallax-four">
+              <h2>Sign Up Today</h2>
+            </div>
+          </section>
+
+          <div id="container1">
+              
+            <form class="form-inline"  method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" autocomplete="off">
+              
             
-          
-          
-              <hr />
 
               <?php
-            if ( isset($errMSG) ) {
-          ?>
+                if ( isset($errMSG) ) {
+              ?>
 
-                  <div class="alert">
+              <div class="alert">
                 <?php echo $errMSG; ?>
               </div>
 
-          <?php
-
+              <?php
               }
-          ?>
+              ?>
 
-          <input type="text" name="name" class="form-control" placeholder="Enter Name" maxlength="50"/>
+              <img src="img/logo.png" style="margin-left: 120px; width: 140px;">
+              <h1 style="text-align: center;">Sign Up</h1>
 
-          <span class="text-danger"><?php echo $nameError; ?></span>
 
-          <input type="email" name="email" class="form-control" placeholder="Enter Your Email" maxlength="40"/>
+              <input type="text" name="name" class="form-control" placeholder="Enter Your Name" maxlength="50"/>
+              <span class="text-danger"><?php echo $nameError; ?></span>
 
-          <span class="text-danger"><?php echo $emailError; ?></span>
 
-          <input type="password" name="pass" class="form-control" placeholder="Enter Password" maxlength="15" />
+              <input type="email" name="email" class="form-control " placeholder="Enter Your Email" maxlength="40"/>
+              <span class="text-danger"><?php echo $emailError; ?></span>
 
-          <span class="text-danger"><?php echo $passError; ?></span>
 
-          <input type="checkbox"><label class="check" for="checkbox">I agree to terms</label>
+              <input type="password" name="pass" class="form-control" placeholder="Enter Your Password" maxlength="15" />
+              <span class="text-danger"><?php echo $passError; ?></span>
 
-          <button type="submit" class="custom-btn" name="btn-signup">Sign Up</button>
-
-          <button class='custom-btn'><a href='login.php'>Sign in Here...</a></button>
-          
-        
-                
            
-          </div><!--/ lower-->
+              <br>
+              
+              <input type="checkbox">
+              <label class="check" for="checkbox">I agree to terms</label>
+              <br>
+             
+              <button type="submit" name="btn" class="submit-btn btn-1">Sign Up</button>
+               <a href="login.php" class="custom-btn">Sign In here</a>
+  
+            </form>  
+  
+          </div>
+    
+          <footer>
+          <a class="fa fa-lg fa-github" href="https://github.com/hadasamanis99" style="text-decoration: none; color: grey;">Hadasa Geiger |</a>
+          <a class=" fa fa-lg fa-github" href="https://github.com/ayseuluc"  style="text-decoration: none; color: grey;">Ayse Uluc |</a>
+          <a class=" fa fa-lg fa-github" href="https://github.com/Qying23"  style="text-decoration: none; color: grey;">Ying Qi |</a>
+          <a class=" fa fa-lg fa-github" href="https://github.com/giavanna"  style="text-decoration: none; color: grey;">Giava Ferrandina |</a>
+          <a class=" fa fa-lg fa-github" href="https://github.com/mirautas"  style="text-decoration: none; color: grey;">Simona Mirauta |</a>
+          <a class=" fa fa-lg fa-github" href="https://github.com/stepienm"  style="text-decoration: none; color: grey;">Manuela Stepien </a>
+      </footer>
 
-          <hr />
-
-          
-           
-        </div>
-      </div>
-    </div>
-    </form>
-        <footer>
-        <a class="fa fa-lg fa-github" href="https://github.com/hadasamanis99" style="text-decoration: none; color: grey;">Hadasa Geiger |</a>
-        <a class=" fa fa-lg fa-github" href="https://github.com/ayseuluc"  style="text-decoration: none; color: grey;">Ayse Uluc |</a>
-        <a class=" fa fa-lg fa-github" href="https://github.com/Qying23"  style="text-decoration: none; color: grey;">Ying Qi |</a>
-        <a class=" fa fa-lg fa-github" href="https://github.com/giavanna"  style="text-decoration: none; color: grey;">Giava Ferrandina |</a>
-        <a class=" fa fa-lg fa-github" href="https://github.com/mirautas"  style="text-decoration: none; color: grey;">Simona Mirauta |</a>
-        <a class=" fa fa-lg fa-github" href="https://github.com/stepienm"  style="text-decoration: none; color: grey;">Manuela Stepien |</a>
-    </footer>
-
-</body>
+  </body>
 </html>
 <?php ob_end_flush(); ?>

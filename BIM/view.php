@@ -1,3 +1,4 @@
+
 <?php
 require_once 'actions/db_connect.php';
 
@@ -16,76 +17,12 @@ if($_GET['id']) {
     <head>
 
         <title>View Event</title>
-        <link rel="stylesheet" type="text/css" href="css/v_style.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <style>
-
-           
-            .scart{
-                background-color:#19c3cc;
-                width: 170px;
-                height: 150px;
-            }
-            .cart_details {
-                width: 109px;
-                float: left;
-                padding: 15px 0 0 15px;
-                text-align: left;
-            }
-            .cart_details {
-                width: 109px;
-                float: left;
-                padding: 5px 0 0 15px;
-                text-align: left;
-            }
-            .cart_icon {
-                float: left;
-                padding: 5px 0 0 5px;
-            }
-
-            fieldset {
-                margin: auto;
-                margin-top: 100px;
-                width: 50%;
-            }
-
-            table tr th {
-                padding-top: 20px;
-            }
-
-            table {
-              font-family:Source Sans Pro, sans-serif;
-              border-collapse: collapse;
-              width: 100%;
-            }
-
-            table tr{
-                background-color: white;
-            }
-
-             td, th {
-                border: 1px solid white;
-                text-align: left;
-                padding: 8px;
-                width: 20%;
-                   
-              }
-              th{
-                color: grey;
-                font-family: Oswals, sans-serif;
-              }
-            button{
-                font-size: 20px;
-                border-radius: 5px;
-                
-            }
-
-
-        </style>
     </head>
 
     <body>
-         <div id="parallax-world-of-ugg">
+     <div id="parallax">
           
             <section>
               <img id="png" src="img/logo.png" alt="">
@@ -97,20 +34,14 @@ if($_GET['id']) {
                         <li><a href="news.php">News |</a></li>
                         <li><a href="contact.php">Contact |</a></li>
                         <li><a href="ourpartners.php">Partner |</a></li>
-                        <li><a href="register.php">Register Now or Sign In</a></li>
-                        
-
-                    
+                        <li><a href="register.php">Register</a></li>
                   </ul>
                 </nav>
             </section>
 
-
 <!-- ********** booking  ********** -->
 
-
         <fieldset>
-
                     <h1><span class="first-character atw">C</span>ourse</h1>
                     <h1><span class="first-character atw">D</span>etails</h1>
 
@@ -171,7 +102,7 @@ if($_GET['id']) {
         <a class=" fa fa-lg fa-github" href="https://github.com/Qying23"  style="text-decoration: none; color: grey;">Ying Qi |</a>
         <a class=" fa fa-lg fa-github" href="https://github.com/giavanna"  style="text-decoration: none; color: grey;">Giava Ferrandina |</a>
         <a class=" fa fa-lg fa-github" href="https://github.com/mirautas"  style="text-decoration: none; color: grey;">Simona Mirauta |</a>
-        <a class=" fa fa-lg fa-github" href="https://github.com/stepienm"  style="text-decoration: none; color: grey;">Manuela Stepien |</a>
+        <a class=" fa fa-lg fa-github" href="https://github.com/stepienm"  style="text-decoration: none; color: grey;">Manuela Stepien </a>
     </footer>
 
 </html>

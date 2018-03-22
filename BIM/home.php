@@ -14,14 +14,12 @@
 <html>
 <head>
 	<title></title>
-  <link rel="stylesheet" type="text/css" href="css/h_style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
-
-     <div id="parallax-world-of-ugg">
-          
+     <div id="parallax">
             <section>
               <img id="png" src="img/logo.png" alt="">
                 <nav>
@@ -32,194 +30,188 @@
                         <li><a href="news.php">News |</a></li>
                         <li><a href="contact.php">Contact |</a></li>
                         <li><a href="ourpartners.php">Partner |</a></li>
-                        <li><a href="register.php">Register Now or Sign In</a></li>
-
-
-                    
+                        <li><a href="register.php">Register</a></li>
                   </ul>
                 </nav>
             </section>
+            <section>
+			 	<div class="parallax-three">
+			    	<h2>BIM EDUCATION AND TRAINING</h2>
+				</div>
+			</section>
+			<?php
 
-<section>
-  <div class="parallax-three">
-    <h2>BIM EDUCATION AND TRAINING</h2>
-  </div>
-</section>
+			if	($userRow['users'] == 0) {
+				?>
 
+			<section>
+			  <div class="parallax-five">
+			  	<h2> DON'T MESS WITH ME!<br>
+			  	I'AM THE ADMIN</h2>
+			  </div>
+			</section>
+				<div class="block">
+		    		<h1><span class="first-character ny">C</span>ourse</h1>
+		    		<br>
+		    		<br>
+		    		<br>
+				<div class="">
 
+					    <table border="1" cellspacing="0" cellpadding="0">
+					        <tbody>
+					      		<?php
 
-	<?php
-
-	if	($userRow['users'] == 0) {
-		?>
-		<div class="block">
-    		<h1><span class="first-character ny">C</span>ourse</h1>
-    		<br>
-    		<br>
-    		<br>
-		<div class="">
-	
-			    <table border="1" cellspacing="0" cellpadding="0">
-
-			        <tbody>
-			      		<?php
-
-			              $sql = "SELECT cId, image, cName, cBegin, cEnd, cDetails, cSchedule, cDescription, cPrice, capacity FROM cours";
-			              $result = $conn->query($sql);
-
-
-			              if($result->num_rows > 0) {
-			                  while($row = $result->fetch_assoc()) {
-			                      echo "
-  										  <div class='box_course'>
-   											 <span class='icon-cont'><i class='fa fa-graduation-cap'></i></span>
-			                            		<a href='view.php?id=".$row['cId']."'></a>
-			                            		 <img class='' src='http://localhost/BIM/img/".$row['image']."'style='width:100%; height:120px;>
-			                              		<div class='caption'>
-				                                <p>".$row['cName']."</p>
-				                                <p>".$row['cPrice']." € </p>
-			                                <a href='update_course.php?id=".$row['cId']."'><button class='custom-btn btn-1' type='button'>Edit</button></a>
-				                            <a href='delete_course.php?id=".$row['cId']."'><button class='custom-btn btn-1' type='button'>Delete</button></a> 
-			                              </div>
-			                              </div>
-			                            </a>
-			                          </div>
-			                        </div>";
-				                            }
-				                        } 
-			              	else {
-			                  echo "<tr><td colspan='5'><center>No Data Avaliable</center></td></tr>";
-			              		}
-			            ?>
-			        </tbody>
-			    </table>
-			    	<div class="buttons-coll">
-			    	<a href='create_course.php'><button class="custom-btn btn-1" type='button'>Add Course</button></a>
-			    </div>
-			    	                              	
-		  	</div>
-		  </div>
-
-   <div class="block">
-    		<h1><span class="first-character atw">U</span>ser</h1>
-    		<br>
-    		<br>
-    		<br>
-		<div class="">
-		    
-			    <table border="1" cellspacing="0" cellpadding="0">
-			        <tbody>
-
-			      		<?php
-
-			              $sql = "SELECT userId, userName, userEmail FROM admin";
-			              $result = $conn->query($sql);
+					              $sql = "SELECT cId, image, cName, cBegin, cEnd, cDetails, cSchedule, cDescription, cPrice, capacity FROM cours";
+					              $result = $conn->query($sql);
 
 
-			              if($result->num_rows > 0) {
-			                  while($row = $result->fetch_assoc()) {
-			                      echo "
-  										  <div class='box_course'>
-   											<span class='icon-cont'><i class='fa fa-user'></i></span>
-			                            <a href='view.php?id=".$row['userId']."'></a>
-			                              <div class='caption'>
-			                                <p>".$row['userName']."</p>
-			                                <div class='buttons-coll'>
-				                            <a href='delete_user.php?id=".$row['userId']."'><button class='custom-btn btn-1' type='button'>Delete User</button></a>
-				                            </div>  
-			                              </div>
-			                            </a>
-			                          </div>
-			                        </div>";
-				                            }
-				                        } 
-			              	else {
-			                  echo "<tr><td colspan='5'><center>No Data Avaliable</center></td></tr>";
-			              		}
-			            ?>
-			        </tbody>
-			    </table>    	
-		  	</div>
-		  </div>
-		  		 <div class="buttons-coll">
-				<button class="custom-btn btn-1" id="sign-out">
-					<a href="logout.php?logout">Sign Out</a>
-				</button>
-			</div>	
+					              if($result->num_rows > 0) {
+					                  while($row = $result->fetch_assoc()) {
+					                      echo "
+		  										  <div class='box_course_course'>
+		   											 <span class='icon-cont'><i class='fa fa-graduation-cap'></i></span>
+					                            		<a href='view.php?id=".$row['cId']."'></a>
+					                            		 <img class='' src='http://localhost/BIM/img/".$row['image']."'style='width:100%; height:120px;>
+					                              		<div class='caption'>
+						                                <h3>".$row['cName']."</h3>
+						                               <h6>Schedule: ".$row['cSchedule']."</h6>
+						                              	<h6>From ".$row['cBegin']." till ".$row['cEnd']."</h6>
+						                               <h6>Price: ".$row['cPrice']." € </h6>
+						                               <h6>Capacity: ".$row['capacity']."</h6>
+					                                <a href='update_course.php?id=".$row['cId']."'><button class='custom-btn btn-1' type='button'>Edit</button></a>
+						                            <a href='delete_course.php?id=".$row['cId']."'><button class='custom-btn btn-1' type='button'>Delete</button></a> 
+					                              </div>
+					                              </div>
+					                            </a>
+					                          </div>
+					                        </div>";
+						                            }
+						                        } 
+					              	else {
+					                  echo "<tr><td colspan='5'><center>No Data Avaliable</center></td></tr>";
+					              		}
+					            ?>
+					        </tbody>
+					    </table>
+					    	<div class="buttons-coll">
+					    	<a href='create_course.php'><button class="custom-btn btn-1" type='button'>Add Course</button></a>
+					    </div>	                              	
+				  	</div>
+				  </div>
+		   <div class="block">
+		    		<h1><span class="first-character atw">U</span>ser</h1>
+		    		<br>
+		    		<br>
+		    		<br>
+				<div class="">
+				    
+					    <table border="1" cellspacing="0" cellpadding="0">
+					        <tbody>
 
-    <?php
-	}
-	
-	else
-		 {
-		?>
-		<div class="block">
-    		<h1><span class="first-character ny">C</span>ourse</h1>
-    		<br>
-    		<br>
-    		<br>
-		<div class="">
-	
-			    <table border="1" cellspacing="0" cellpadding="0">
-			        <tbody>
-			      		<?php
+					      		<?php
 
-			              $sql = "SELECT cId, image, cName, cBegin, cEnd, cDetails, cSchedule, cDescription, cPrice, capacity FROM cours";
-			              $result = $conn->query($sql);
+					              $sql = "SELECT userId, userName, userEmail FROM admin";
+					              $result = $conn->query($sql);
 
+					              if($result->num_rows > 0) {
+					                  while($row = $result->fetch_assoc()) {
+					                      echo "
+		  										  <div class='box_course_user'>
+		   											<span class='icon-cont'><i class='fa fa-user'></i></span>
+					                            <a href='view.php?id=".$row['userId']."'></a>
+					                              <div class='caption'>
+					                                <p>".$row['userName']."</p>
+					                                <div class='buttons-coll'>
+						                            <a href='delete_user.php?id=".$row['userId']."'><button class='custom-btn btn-1' type='button'>Delete User</button></a>
+						                            </div>  
+					                              </div>
+					                            </a>
+					                          </div>
+					                        </div>";
+						                            }
+						                        } 
+					              	else {
+					                  echo "<tr><td colspan='5'><center>No Data Avaliable</center></td></tr>";
+					              		}
+					            ?>
+					        </tbody>
+					    </table>    	
+				  	</div>
+				  </div>
+				  		 <div class="buttons-coll">
+						<button class="custom-btn btn-1" id="sign-out">
+							<a href="logout.php?logout">Sign Out</a>
+						</button>
+					</div>	
+		    <?php
+			}
+			
+			else
+				 {
+				?>
+				<div class="block">
+		    		<h1><span class="first-character ny">C</span>ourse</h1>
+		    		<br>
+		    		<br>
+		    		<br>
+				<div class="">
+			
+					    <table border="1" cellspacing="0" cellpadding="0">
+					        <tbody>
+					      		<?php
 
-			              if($result->num_rows > 0) {
-			                  while($row = $result->fetch_assoc()) {
-			                      echo "
-  										  <div class='box_course'>
-   											 <span class='icon-cont'><i class='fa fa-graduation-cap'></i></span>
-			                            		<a href='view.php?id=".$row['cId']."'></a>
-			                            		 <img class='' src='http://localhost/BIM/img/".$row['image']."'style='width:100%; height:120px;>
-			                              		<div class='caption'>
-				                                <p>".$row['cName']."</p>
-				                                <p>".$row['cPrice']." € </p>
-				                                <a href='view.php?id=".$row['cId']." ' class='custom-btn btn-1' style='color:black;background-color:white;decoretion:none;'>Read More</a>
-			                              </div>
-			                              </div>
-			                            </a>
-			                          </div>
-			                        </div>";
-				                            }
-				                        } 
-			              	
-			            ?>
-			        </tbody>
-			    </table>
-			    	
-			    	                              	
-		  	</div>
-		  </div>	                          
-			          
-			             <div class="buttons-coll">
-				<button class="custom-btn btn-1" id="sign-out">
-					<a href="logout.php?logout">Logout</a>
-				</button>
-			</div>	
-			        </tbody>
-			    </table>
- 	
-		  	</div>
+					              $sql = "SELECT cId, image, cName, cBegin, cEnd, cDetails, cSchedule, cDescription, cPrice, capacity FROM cours";
+					              $result = $conn->query($sql);
 
 
-    <?php
-	}
+					              if($result->num_rows > 0) {
+					                  while($row = $result->fetch_assoc()) {
+					                      echo "
+		  										  <div class='box_course_1'>
+		   											 <span class='icon-cont'><i class='fa fa-graduation-cap'></i></span>
+					                            		<a href='view.php?id=".$row['cId']."'></a>
+					                            		 <img class='' src='http://localhost/BIM/img/".$row['image']."'style='width:100%; height:120px;>
+					                              		<div class='caption'>				           			
+						                                <h3>".$row['cName']."</h3>
+						                                <p>Capacity: ".$row['cDescription']."</p>
+						                               <h6>Schedule: ".$row['cSchedule']."</h6>
+						                              	<h6>From ".$row['cBegin']." till ".$row['cEnd']."</h6>
+						                               <h6>Price: ".$row['cPrice']." € </h6>
+						                               <h6>Capacity: ".$row['capacity']."</h6>
+						                                <a href='view.php?id=".$row['cId']." ' class='custom-btn btn-1'>Read More</a>
+					                              </div>
+					                              </div>
+					                            </a>
+					                          </div>
+					                        </div>";
+						                            }
+						                        } 
+					              	
+					            ?>
+					        </tbody>
+					    </table>                              	
+				  	</div>
+				  </div>	                            
+				  <div class="buttons-coll">
+						<button class="custom-btn btn-1" id="sign-out">
+						<a href="logout.php?logout">Logout</a>
+						</button>
+				   </div>	
+					        </tbody>
+					    </table>
+				  	</div>
+		    <?php
+			}
 
-	?>
-				
-
-</div>
-<footer>
-        <a class="fa fa-lg fa-github" href="https://github.com/hadasamanis99" style="text-decoration: none; color: grey;">Hadasa Geiger |</a>
-        <a class=" fa fa-lg fa-github" href="https://github.com/ayseuluc"  style="text-decoration: none; color: grey;">Ayse Uluc |</a>
-        <a class=" fa fa-lg fa-github" href="https://github.com/Qying23"  style="text-decoration: none; color: grey;">Ying Qi |</a>
-        <a class=" fa fa-lg fa-github" href="https://github.com/giavanna"  style="text-decoration: none; color: grey;">Giava Ferrandina |</a>
-        <a class=" fa fa-lg fa-github" href="https://github.com/mirautas"  style="text-decoration: none; color: grey;">Simona Mirauta |</a>
-        <a class=" fa fa-lg fa-github" href="https://github.com/stepienm"  style="text-decoration: none; color: grey;">Manuela Stepien |</a>
-    </footer>
-</body>
-</html>
+			?>
+		</div>
+		<footer>
+		        <a class="fa fa-lg fa-github" href="https://github.com/hadasamanis99" style="text-decoration: none; color: grey;">Hadasa Geiger |</a>
+		        <a class=" fa fa-lg fa-github" href="https://github.com/ayseuluc"  style="text-decoration: none; color: grey;">Ayse Uluc |</a>
+		        <a class=" fa fa-lg fa-github" href="https://github.com/Qying23"  style="text-decoration: none; color: grey;">Ying Qi |</a>
+		        <a class=" fa fa-lg fa-github" href="https://github.com/giavanna"  style="text-decoration: none; color: grey;">Giava Ferrandina |</a>
+		        <a class=" fa fa-lg fa-github" href="https://github.com/mirautas"  style="text-decoration: none; color: grey;">Simona Mirauta |</a>
+		        <a class=" fa fa-lg fa-github" href="https://github.com/stepienm"  style="text-decoration: none; color: grey;">Manuela Stepien </a>
+		    </footer>
+		</body>
+		</html>

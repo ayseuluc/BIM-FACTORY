@@ -6,7 +6,7 @@
 <head>
   <meta charset="UTF-8">
   <title>News</title>
-  <link rel="stylesheet" type="text/css" href="css/n_style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -32,7 +32,6 @@
       <header>
         <ul class="tabs">
           <li class="tabs__item">Posts</li>
-          <li class="tabs__item">Categories</li>
           <li class="tabs__item"><a href="index.php">Home</a></li>
 
         </ul>
@@ -79,59 +78,6 @@
                 using an IMU and a GPS. Our method corrects for
                 the GPS error and the IMU drift to produce a globally consistent
                 and well registered dataset for the whole city</p>
-          </a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="tab">
-      <ul class="cards">
-        <li class="card">
-          <a class="card__link" href="#">
-            <div class="card__img">
-              <figure class="absolute-bg" style="background-image: url('https://azbigmedia.com/wp-content/uploads/2018/02/architecture.jpg');"></figure>
-            </div>
-            <div class="card__container">
-              <h2 class="card__header">New Technologies</h2>
-              <p class="card__count">3 Posts</p>
-              <span class="card__more">View All</span>
-            </div>
-          </a>
-        </li>
-        <li class="card">
-          <a class="card__link" href="#">
-            <div class="card__img">
-              <figure class="absolute-bg" style="background-image: url('https://canada.constructconnect.com/app/uploads/2018/02/BIM-Photo-2WEB-1024x576.jpg');"></figure>
-            </div>
-            <div class="card__container">
-              <h2 class="card__header">BIM 3D and 4D</h2>
-              <p class="card__count">2 Posts</p>
-              <span class="card__more">View All</span>
-            </div>
-          </a>
-        </li>
-        <li class="card">
-          <a class="card__link" href="#">
-            <div class="card__img">
-              <figure class="absolute-bg" style="background-image: url('http://www.meridiantitle.com/library/images/Misc-Clips/building-model-with-blueprints.jpg');"></figure>
-            </div>  
-            <div class="card__container">
-              <h2 class="card__header">New Construction</h2>
-              <p class="card__count">3 Posts</p>
-              <span class="card__more">View All</span>
-            </div>
-          </a>
-        </li>
-        <li class="card">
-          <a class="card__link" href="#">
-            <div class="card__img">
-              <figure class="absolute-bg" style="background-image: url('https://www.rdh.com/wp-content/uploads/2013/12/Energy-Simulation-Web.jpg');"></figure>
-            </div>
-            <div class="card__container">
-              <h2 class="card__header">Energy Simulation</h2>
-              <p class="card__count">2 Posts</p>
-              <span class="card__more">View All</span>
-            </div>
           </a>
         </li>
       </ul>
